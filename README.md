@@ -22,5 +22,6 @@ I then experimented with some replacement EEPROMs until finding the setting that
     - There are probably tens/hundreds of pin-compatible parts, but this is the first one I found.
   - This ROM image also works in the M84-Pro-3 and probably the M84-Pro-6. On startup, it asks you to confirm that the print head resolution has changed.
     - If you receive this prompt on each startup, then the EEPROM is write-protected. See above for clearing that flag.
+    - No, a blank EEPROM does not work. I tried. :)
 
 I would love to know what each of the registers mean in the ROM. If someone knows, please open a ticket.
