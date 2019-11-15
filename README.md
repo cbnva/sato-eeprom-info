@@ -3,7 +3,7 @@
 ## Background Story ##
 We had trouble with a SATO M84-Pro-2 giving an `EEPROM ERROR` message. In troubleshooting this, I swapped the EEPROM with one from a printer that was working. Apparently, the mainboard was bad, and it corrupted the good EEPROM when powered on. Now I had two broken printers.
 
-I ordered a replacement motherboard and an [EEPROM programmer](https://smile.amazon.com/gp/product/B07CDD9PGT). After verifying the operation of the programmer, I dumped the EEPROM from the replacement motherboard to ensure we had a backup
+I ordered a replacement motherboard and an [TL866II Plus EEPROM programmer](https://smile.amazon.com/gp/product/B07CDD9PGT). After verifying the operation of the programmer, I dumped the EEPROM from the replacement motherboard to ensure we had a backup
 
 I then experimented with some replacement EEPROMs until finding the setting that works.
 
